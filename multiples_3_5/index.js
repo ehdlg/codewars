@@ -13,7 +13,7 @@ function solution(number) {
 
   const isMultiple = (n) => n % 3 === 0 || n % 5 === 0;
 
-  for (let i = 1; i < number; i++) {
+  for (let i = 3; i < number; i++) {
     if (isMultiple(i)) total += i;
   }
 
